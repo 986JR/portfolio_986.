@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Joshua Rodgers Mwakipesile — Software Engineering Student at UDOM. Backend Developer specializing in Java & Spring Boot. Seeking internship opportunities in Tanzania." />
+  <meta name="keywords" content="Joshua Rodgers Mwakipesile, Software Engineering, Java, Spring Boot, Backend Developer, UDOM, Tanzania, Internship" />
+  <meta name="author" content="Joshua Rodgers Mwakipesile" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Joshua Rodgers Mwakipesile — Portfolio" />
+  <meta property="og:description" content="Backend Developer · Spring Boot · Java · REST APIs" />
+  <meta property="og:type" content="website" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="#" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Joshua Rodgers Mwakipesile — Software Engineering Student</title>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════
+     NAVIGATION
+═══════════════════════════════════════════════════════════ -->
+<header id="navbar" role="banner">
+  <div class="container">
+    <nav class="nav-inner" aria-label="Primary navigation">
+
+      <!-- Logo -->
+      <a href="#hero" class="nav-logo" aria-label="Joshua Rodgers — Home">
+        Joshua<span>.</span>dev
+      </a>
+
+      <!-- Desktop Links -->
+      <ul class="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Actions -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme" title="Toggle theme"></button>
+        <a href="assets/Joshua_Rodgers_CV.pdf" download class="btn btn-primary" style="padding:0.55rem 1.2rem; font-size:0.82rem;">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+          </svg>
+          Download CV
+        </a>
+        <button id="hamburger" class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </nav>
+  </div>
+</header>
+
+<!-- Mobile Menu -->
+<nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation">
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li>
+      <a href="assets/Joshua_Rodgers_CV.pdf" download style="color:var(--accent);">
+        ↓ Download CV
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════════════════════ -->
+<main>
+<section id="hero" aria-label="Introduction">
+  <div class="container">
+    <div class="hero-grid">
+
+      <!-- Text Content -->
+      <div class="hero-content">
+
+        <div class="hero-eyebrow">
+          <div class="hero-dot"></div>
+          Available for Internship
+        </div>
+
+        <h1 class="hero-name">Joshua Rodgers<br />Mwakipesile</h1>
+
+        <!-- Typing Effect -->
+        <div class="hero-typing-wrapper" aria-live="polite">
+          <span class="typing-prefix">&gt;&nbsp;</span>
+          <span id="typed-text" aria-label="Role"></span>
+          <span class="cursor" aria-hidden="true"></span>
+        </div>
+
+        <p class="hero-bio">
+          A passionate Software Engineering student at the University of Dodoma,
+          specializing in backend development using Java and Spring Boot. I enjoy
+          building secure, scalable RESTful systems and solving real-world problems
+          through clean architecture and structured APIs.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+              <rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
+            </svg>
+            View Projects
+          </a>
+          <a href="assets/Joshua_Rodgers_CV.pdf" download class="btn btn-outline">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+            </svg>
+            Download CV
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num">1+</span>
+            <span class="stat-label">Project</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat-item">
+            <span class="stat-num">2+</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat-item">
+            <span class="stat-num">2024</span>
+            <span class="stat-label">Started at UDOM</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Profile Avatar -->
+      <div class="hero-avatar-wrap" aria-hidden="true">
+        <div class="avatar-ring">
+        </div>
+        <div class="hero-avatar">
+            <img src="assets/jr_png.png">
+          <div class="avatar-placeholder">
+            <div class="avatar-icon"><img src="assets/jr_png.png"></div>
+            <span class="avatar-initials">JRM</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /hero-grid -->
+  </div>
+
+  <div class="scroll-indicator" aria-hidden="true">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     ABOUT
+═══════════════════════════════════════════════════════════ -->
+<section id="about" aria-labelledby="about-title">
+  <div class="container">
+    <div class="about-grid">
+
+      <!-- Left -->
+      <div>
+        <div class="section-header reveal">
+          <p class="section-label">Who I Am</p>
+          <h2 class="section-title" id="about-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <p class="reveal delay-1" style="margin-bottom:1rem;">
+          I am <strong style="color:var(--text-primary)">Joshua Rodgers Mwakipesile</strong>, a Software Engineering student at the
+          <strong style="color:var(--accent)">University of Dodoma (UDOM)</strong> in Tanzania. I have a deep passion for building
+          backend systems that are efficient, secure, and maintainable.
+        </p>
+        <p class="reveal delay-2" style="margin-bottom:1rem;">
+          My primary stack revolves around <strong style="color:var(--text-primary)">Java</strong> and
+          <strong style="color:var(--text-primary)">Spring Boot</strong>, where I design RESTful APIs with JWT authentication,
+          PostgreSQL databases, and clean layered architectures.
+        </p>
+        <p class="reveal delay-3" style="margin-bottom:1.75rem;">
+          I am currently expanding my skillset into <strong style="color:var(--amber)">React.js</strong> to become a more
+          versatile developer and am actively seeking internship opportunities to apply and grow my skills in industrial
+          environments.
+        </p>
+
+        <div class="about-tags reveal delay-4" aria-label="Tags">
+          <span class="tag">📍 Dodoma, Tanzania</span>
+          <span class="tag">🎓 BSc Software Engineering</span>
+          <span class="tag">☕ Java Enthusiast</span>
+          <span class="tag">🔐 API Security</span>
+          <span class="tag">🌱 Currently: React.js</span>
+        </div>
+      </div>
+
+      <!-- Right — Highlights -->
+      <div class="about-highlights" role="list">
+        <div class="highlight-card reveal delay-1" role="listitem">
+          <div class="highlight-icon" aria-hidden="true">🏗️</div>
+          <div class="highlight-body">
+            <h4>Backend Architecture</h4>
+            <p>Building scalable REST APIs with clean layered architecture using Spring Boot, following industry best practices.</p>
+          </div>
+        </div>
+        <div class="highlight-card reveal delay-2" role="listitem">
+          <div class="highlight-icon" aria-hidden="true">🔐</div>
+          <div class="highlight-body">
+            <h4>Security & Authentication</h4>
+            <p>Implementing JWT-based authentication and authorization flows to secure API endpoints effectively.</p>
+          </div>
+        </div>
+        <div class="highlight-card reveal delay-3" role="listitem">
+          <div class="highlight-icon" aria-hidden="true">🗄️</div>
+          <div class="highlight-body">
+            <h4>Database Design</h4>
+            <p>Designing and managing PostgreSQL databases with Supabase, ensuring efficient data modeling and queries.</p>
+          </div>
+        </div>
+        <div class="highlight-card reveal delay-4" role="listitem">
+          <div class="highlight-icon" aria-hidden="true">🚀</div>
+          <div class="highlight-body">
+            <h4>Seeking Opportunities</h4>
+            <p>Actively looking for Industrial Practical Training (IPT) internship positions to apply skills in a real-world environment.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     SKILLS
+═══════════════════════════════════════════════════════════ -->
+<section id="skills" aria-labelledby="skills-title">
+  <div class="container">
+
+    <div class="section-header reveal">
+      <p class="section-label">What I Know</p>
+      <h2 class="section-title" id="skills-title">Skills &amp; Technologies</h2>
+      <div class="section-divider"></div>
+      <p class="section-desc">A categorized overview of my technical skills and the tools I work with daily.</p>
+    </div>
+
+    <div class="skills-grid">
+
+      <!-- Programming Languages -->
+      <div class="skill-group reveal delay-1">
+        <div class="skill-group-header">
+          <div class="skill-group-icon" aria-hidden="true">💻</div>
+          <span class="skill-group-title">Programming Languages</span>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Java</span>
+            <span class="skill-pct">85%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Java proficiency 85%">
+            <div class="skill-bar-fill" data-pct="85"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">JavaScript</span>
+            <span class="skill-pct">72%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript proficiency 72%">
+            <div class="skill-bar-fill" data-pct="72"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">HTML5</span>
+            <span class="skill-pct">88%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="HTML5 proficiency 88%">
+            <div class="skill-bar-fill green" data-pct="88"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">CSS3</span>
+            <span class="skill-pct">80%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="CSS3 proficiency 80%">
+            <div class="skill-bar-fill green" data-pct="80"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Backend -->
+      <div class="skill-group reveal delay-2">
+        <div class="skill-group-header">
+          <div class="skill-group-icon" aria-hidden="true">⚙️</div>
+          <span class="skill-group-title">Backend Development</span>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Spring Boot</span>
+            <span class="skill-pct">82%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" aria-label="Spring Boot proficiency 82%">
+            <div class="skill-bar-fill" data-pct="82"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">REST APIs</span>
+            <span class="skill-pct">85%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="REST APIs proficiency 85%">
+            <div class="skill-bar-fill" data-pct="85"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">PostgreSQL</span>
+            <span class="skill-pct">75%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="PostgreSQL proficiency 75%">
+            <div class="skill-bar-fill green" data-pct="75"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">JWT Authentication</span>
+            <span class="skill-pct">78%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" aria-label="JWT Authentication proficiency 78%">
+            <div class="skill-bar-fill green" data-pct="78"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Tools & Currently Learning -->
+      <div class="skill-group reveal delay-3">
+        <div class="skill-group-header">
+          <div class="skill-group-icon" aria-hidden="true">🛠️</div>
+          <span class="skill-group-title">Tools &amp; Learning</span>
+        </div>
+
+        <p style="font-size:0.8rem;color:var(--text-muted);font-family:var(--font-mono);margin-bottom:1rem;">TOOLS &amp; ECOSYSTEM</p>
+        <div class="tech-chips" style="margin-bottom:1.75rem;">
+          <span class="chip">☁️ Supabase</span>
+          <span class="chip">🐙 Git &amp; GitHub</span>
+          <span class="chip">🐋 Postman</span>
+          <span class="chip">💡 IntelliJ IDEA</span>
+          <span class="chip">🐘 Maven</span>
+          <span class="chip">🔐 Spring Security</span>
+          <span class="chip">📦 JPA/Hibernate</span>
+        </div>
+
+        <p style="font-size:0.8rem;color:var(--amber);font-family:var(--font-mono);margin-bottom:1rem;">CURRENTLY LEARNING</p>
+        <div class="tech-chips">
+          <span class="chip learning">⚛️ React.js</span>
+          <span class="chip learning">🎨 Tailwind CSS</span>
+          <span class="chip learning">🐳 Docker</span>
+        </div>
+
+        <div style="margin-top:1.5rem;padding:1rem;background:var(--bg-secondary);border-radius:10px;border:1px dashed var(--border-accent);">
+          <p style="font-size:0.82rem;color:var(--text-secondary);line-height:1.6;margin:0;">
+            <span style="color:var(--amber);">💡</span> Currently transitioning from pure backend to
+            <strong style="color:var(--text-primary)">full-stack</strong> by mastering React.js to complement
+            my Spring Boot expertise.
+          </p>
+        </div>
+
+      </div>
+
+    </div><!-- /skills-grid -->
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     EDUCATION
+═══════════════════════════════════════════════════════════ -->
+<section id="education" aria-labelledby="edu-title">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-label">My Journey</p>
+      <h2 class="section-title" id="edu-title">Education &amp; Training</h2>
+      <div class="section-divider"></div>
+      <p class="section-desc">My academic background and the courses that have shaped my technical foundation.</p>
+    </div>
+
+    <div class="timeline" role="list">
+
+      <!-- UDOM -->
+      <div class="timeline-item" role="listitem">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="timeline-card">
+          <div class="timeline-badge">
+            <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            2024 — Present &nbsp;·&nbsp; Active
+          </div>
+          <h3 class="timeline-inst">University of Dodoma (UDOM)</h3>
+          <p class="timeline-degree">Bachelor of Science in Software Engineering</p>
+          <p style="font-size:0.88rem;line-height:1.65;">
+            Pursuing a comprehensive degree in Software Engineering at one of Tanzania's leading public universities.
+            Focused on core computer science fundamentals, software architecture, database management, and modern web development
+            practices.
+          </p>
+          <div class="course-list" aria-label="Completed courses">
+            <span class="course-pill">Java OOP</span>
+            <span class="course-pill">Spring Boot REST API</span>
+            <span class="course-pill">Database Systems</span>
+            <span class="course-pill">Data Structures</span>
+            <span class="course-pill">Algorithms</span>
+            <span class="course-pill">Software Engineering</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Self-Learning -->
+      <div class="timeline-item" role="listitem">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="timeline-card">
+          <div class="timeline-badge" style="background:rgba(245,166,35,0.1);border-color:rgba(245,166,35,0.3);color:var(--amber);">
+            🌱 2024 — Ongoing
+          </div>
+          <h3 class="timeline-inst">Self-Directed Learning</h3>
+          <p class="timeline-degree" style="color:var(--amber);">Backend Engineering &amp; Frontend Expansion</p>
+          <p style="font-size:0.88rem;line-height:1.65;">
+            Supplementing formal education with hands-on project building, online courses, and documentation study.
+            Built a full Spring Boot project (CourseShare) applying real-world concepts like JWT auth, Supabase storage, and REST API design.
+          </p>
+          <div class="course-list">
+            <span class="course-pill">Spring Boot Deep Dive</span>
+            <span class="course-pill">JWT Security</span>
+            <span class="course-pill">Supabase Integration</span>
+            <span class="course-pill">React.js (In Progress)</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /timeline -->
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     PROJECTS
+═══════════════════════════════════════════════════════════ -->
+<section id="projects" aria-labelledby="projects-title">
+  <div class="container">
+
+    <div class="section-header reveal">
+      <p class="section-label">What I've Built</p>
+      <h2 class="section-title" id="projects-title">Projects</h2>
+      <div class="section-divider"></div>
+      <p class="section-desc">A showcase of projects I've designed and developed — focused on real-world utility.</p>
+    </div>
+
+    <!-- Filters -->
+    <div class="project-filters reveal" role="group" aria-label="Filter projects by category">
+      <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+      <button class="filter-btn" data-filter="backend" aria-pressed="false">Backend</button>
+      <button class="filter-btn" data-filter="fullstack" aria-pressed="false">Fullstack</button>
+    </div>
+
+    <!-- Grid -->
+    <div class="projects-grid">
+
+      <!-- CourseShare -->
+      <article class="project-card reveal delay-1" data-category="backend" aria-labelledby="proj1-title">
+        <div class="project-thumb">
+          <div class="project-thumb-placeholder">
+            <div class="project-thumb-icon">
+                <img src="assets/image.png">
+            </div>
+            <!--<span>CourseShare Platform</span> -->
+          </div>
+          <div class="project-overlay" aria-hidden="true">
+            <a href="https://github.com/986JR" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="View on GitHub" aria-label="View CourseShare on GitHub">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="#" class="overlay-btn" style="background:var(--bg-secondary);color:var(--text-secondary);" title="Live demo coming soon" aria-label="Live demo coming soon">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-cat">Backend · REST API</p>
+          <h3 class="project-title" id="proj1-title">CourseShare</h3>
+          <p class="project-desc">
+            A platform where study resources are collected and organized to simplify
+            searching for academic materials from different learning institutions. Students can
+            upload, browse, and download course materials with ease.
+          </p>
+          <div class="project-stack" aria-label="Technologies used">
+            <span class="stack-tag">Spring Boot</span>
+            <span class="stack-tag">PostgreSQL</span>
+            <span class="stack-tag">Supabase</span>
+            <span class="stack-tag">JWT Auth</span>
+            <span class="stack-tag">REST APIs</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/986JR" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View CourseShare source code on GitHub">
+              <svg width="13" height="13" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub (986JR)
+            </a>
+            <span style="color:var(--text-muted);font-family:var(--font-mono);font-size:0.78rem;">
+              🔒 Live demo coming soon
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Placeholder project 2 -->
+      <article class="project-card reveal delay-2" data-category="fullstack" aria-labelledby="proj2-title">
+        <div class="project-thumb">
+          <div class="project-thumb-placeholder">
+            <div class="project-thumb-icon">🔧</div>
+            <span>More projects coming</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-cat">Fullstack · In Progress</p>
+          <h3 class="project-title" id="proj2-title">Next Project</h3>
+          <p class="project-desc">
+            A new fullstack project currently in development, combining React.js on the frontend
+            with my Spring Boot backend expertise. Stay tuned — it will be added here soon.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">React.js</span>
+            <span class="stack-tag">Spring Boot</span>
+            <span class="stack-tag">PostgreSQL</span>
+            <span class="stack-tag">REST APIs</span>
+          </div>
+          <div class="project-links">
+            <span style="color:var(--amber);font-family:var(--font-mono);font-size:0.78rem;">
+              🚧 In Development
+            </span>
+          </div>
+        </div>
+      </article>
+
+    </div><!-- /projects-grid -->
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     BLOG
+═══════════════════════════════════════════════════════════ -->
+<section id="blog" aria-labelledby="blog-title">
+  <div class="container">
+
+    <div class="section-header reveal">
+      <p class="section-label">My Thoughts</p>
+      <h2 class="section-title" id="blog-title">Blog</h2>
+      <div class="section-divider"></div>
+      <p class="section-desc">Articles and insights on backend development, Java, and software engineering as a student.</p>
+    </div>
+
+    <div class="blog-grid">
+
+      <article class="blog-card reveal delay-1">
+        <div class="blog-thumb" aria-hidden="true">☕</div>
+        <div class="blog-body">
+          <div class="blog-meta">
+            <span class="blog-tag">Java</span>
+            <span class="blog-date">Coming Soon</span>
+          </div>
+          <h3 class="blog-title">Getting Started with Spring Boot REST APIs: A Student's Guide</h3>
+          <p class="blog-excerpt">
+            A practical walkthrough of building your first Spring Boot REST API from scratch — covering project setup,
+            controllers, services, and JPA repositories.
+          </p>
+          <span class="blog-read-more">Read Article →</span>
+        </div>
+      </article>
+
+      <article class="blog-card reveal delay-2">
+        <div class="blog-thumb" aria-hidden="true">🔐</div>
+        <div class="blog-body">
+          <div class="blog-meta">
+            <span class="blog-tag">Security</span>
+            <span class="blog-date">Coming Soon</span>
+          </div>
+          <h3 class="blog-title">JWT Authentication in Spring Boot: Step-by-Step</h3>
+          <p class="blog-excerpt">
+            Learn how to implement JWT-based authentication in a Spring Boot application — from generating tokens to
+            securing your endpoints with Spring Security.
+          </p>
+          <span class="blog-read-more">Read Article →</span>
+        </div>
+      </article>
+
+      <article class="blog-card reveal delay-3">
+        <div class="blog-thumb" aria-hidden="true">🗄️</div>
+        <div class="blog-body">
+          <div class="blog-meta">
+            <span class="blog-tag">Database</span>
+            <span class="blog-date">Coming Soon</span>
+          </div>
+          <h3 class="blog-title">PostgreSQL + Supabase: Storage Buckets for Student Projects</h3>
+          <p class="blog-excerpt">
+            How I integrated Supabase Storage Buckets with my Spring Boot project to handle file uploads for academic
+            resources — lessons learned and best practices.
+          </p>
+          <span class="blog-read-more">Read Article →</span>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     CONTACT
+═══════════════════════════════════════════════════════════ -->
+<section id="contact" aria-labelledby="contact-title">
+  <div class="container">
+
+    <div class="section-header reveal">
+      <p class="section-label">Let's Connect</p>
+      <h2 class="section-title" id="contact-title">Get In Touch</h2>
+      <div class="section-divider"></div>
+      <p class="section-desc">Interested in offering an internship, collaborating, or just saying hello? My inbox is open.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <!-- Contact Info -->
+      <div class="reveal-left" aria-label="Contact information">
+        <div class="contact-info">
+
+          <a href="mailto:joshuaridgers986@gmail.com" class="contact-item" aria-label="Send email to Joshua">
+            <div class="contact-icon" aria-hidden="true">✉️</div>
+            <div>
+              <div class="contact-label">Email</div>
+              <div class="contact-value">joshuaridgers986@gmail.com</div>
+            </div>
+          </a>
+
+          <a href="tel:+255765681723" class="contact-item" aria-label="Call Joshua">
+            <div class="contact-icon" aria-hidden="true">📱</div>
+            <div>
+              <div class="contact-label">Phone</div>
+              <div class="contact-value">+255 765 681 723</div>
+            </div>
+          </a>
+
+          <a href="https://wa.me/255765681723" target="_blank" rel="noopener noreferrer" class="contact-item" aria-label="Message Joshua on WhatsApp">
+            <div class="contact-icon" aria-hidden="true">💬</div>
+            <div>
+              <div class="contact-label">WhatsApp</div>
+              <div class="contact-value">wa.me/255765681723</div>
+            </div>
+          </a>
+
+          <div class="contact-item" style="cursor:default;">
+            <div class="contact-icon" aria-hidden="true">📍</div>
+            <div>
+              <div class="contact-label">Location</div>
+              <div class="contact-value">Dodoma, Tanzania</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Social Links -->
+        <div style="margin-top:1.75rem;">
+          <p style="font-family:var(--font-mono);font-size:0.72rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-muted);margin-bottom:0.85rem;">
+            Social Profiles
+          </p>
+          <div class="social-row">
+            <a href="https://github.com/986JR" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Visit Joshua's GitHub profile">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/Joshuarodgers9" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Visit Joshua's LinkedIn profile">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="reveal-right">
+        <form id="contact-form" class="contact-form" novalidate aria-label="Contact form">
+
+          <div id="form-success" class="form-success" role="alert">
+            ✅ Thank you! Your message has been received. I'll get back to you soon.
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="f-name" class="form-label">Full Name *</label>
+              <input type="text" id="f-name" name="name" class="form-input" placeholder="Your full name" autocomplete="name" />
+              <span class="form-error" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="f-email" class="form-label">Email Address *</label>
+              <input type="email" id="f-email" name="email" class="form-input" placeholder="your@email.com" autocomplete="email" />
+              <span class="form-error" role="alert"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="f-subject" class="form-label">Subject *</label>
+            <input type="text" id="f-subject" name="subject" class="form-input" placeholder="Internship Opportunity / Collaboration / Other" />
+            <span class="form-error" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="f-message" class="form-label">Message *</label>
+            <textarea id="f-message" name="message" class="form-textarea" placeholder="Tell me about the opportunity, project, or what's on your mind…"></textarea>
+            <span class="form-error" role="alert"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="align-self:flex-start;padding:0.85rem 2rem;">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+            </svg>
+            Send Message
+          </button>
+
+        </form>
+      </div>
+
+    </div><!-- /contact-grid -->
+  </div>
+</section>
+</main>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════════════════════ -->
+<footer role="contentinfo">
+  <div class="container">
+    <div class="footer-inner">
+      <p class="footer-copy">
+        © 2025 <span>Joshua Rodgers Mwakipesile</span>. Built with HTML5, CSS3 &amp; Vanilla JS.
+      </p>
+      <nav aria-label="Footer navigation">
+        <ul class="footer-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Back To Top -->
+<button id="back-top" aria-label="Back to top" title="Back to top">
+  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M18 15l-6-6-6 6"/>
+  </svg>
+</button>
+
+
+<!-- JavaScript -->
+<script src="js/main.js"></script>
+</body>
+</html>
